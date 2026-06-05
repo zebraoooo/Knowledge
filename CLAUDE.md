@@ -10,14 +10,24 @@ There is no build system, no test runner, no package manager. Do not invent or r
 
 ## Current state
 
-The vault is essentially empty as of initial setup:
-
-- No `.md` notes yet at the top level
-- Git is initialized (`master` branch) but has no commits
-- `.obsidian/` holds default configuration only — no community plugins installed (`community-plugins.json` is `[]`)
+- Templater 2.20.5 installed and configured — `Templates/Note.md` auto-applies to new notes vault-wide
+- `Templates/` holds universal note skeleton (title, created, updated, source, status, type, tags, aliases in frontmatter)
+- Git remote: `origin` → `https://github.com/zebraoooo/Knowledge.git` (master), user authorizes direct push
+- `.gitignore` separates per-device state from shared config; `.obsidian/workspace.json`, plugin `data.json` (except Templater's), `.trash/` are ignored
 - Core plugins enabled include: file-explorer, search, graph, backlink, canvas, daily-notes, templates, bases, **sync**
 
 Because Obsidian Sync is enabled, changes under `.obsidian/` propagate to the user's other devices — confirm before modifying core/community plugin config or workspace layout.
+
+## Persistent memory (CRITICAL — read this before doing anything else)
+
+**Memories live at `.claude/memory/MEMORY.md` (index) and `feedback_*.md` / `project_*.md` / `user_*.md` (entries).** Load the index on every session start. The system may also reference a default memory path under `%USERPROFILE%\.claude\projects\` — prefer the vault copy (`.claude/memory/`) as the source of truth, since it travels with git across devices.
+
+Memory types: `user` (who the user is), `feedback` (how to work with them), `project` (context about this vault), `reference` (pointers to external systems).
+
+- **Read** MEMORY.md first — it's the index
+- **Write** new memories as separate `.md` files with correct frontmatter, then add a one-line entry to MEMORY.md
+- **Update** stale memories when they no longer match reality
+- **Never** write memory content directly into MEMORY.md (it's an index, not a memory)
 
 ## Working conventions
 
@@ -29,8 +39,9 @@ Because Obsidian Sync is enabled, changes under `.obsidian/` propagate to the us
 ## What lives where
 
 - `.obsidian/` — Obsidian app config (tracked in git). Workspace layout, enabled plugins, appearance.
-- `.claude/` — Claude Code project-local settings.
-- `.git/` — git repo (currently no commits, no remote configured here).
+- `.claude/` — Claude Code project-local settings and **persistent memory** (`.claude/memory/`). Memory is synced via git so it survives across devices.
+- `.git/` — git repo.
+- `Templates/` — Templater note templates.
 
 ## Out of scope
 
