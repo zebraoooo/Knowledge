@@ -102,6 +102,9 @@ Claude Code, Cursor, OpenCode, Codex, Gemini CLI, Windsurf, Kiro, Copilot 等 14
 
 ## 相关
 
+- [[Trellis + GitNexus + Serena 工作流]] — 三件套组合总结
+- [[Trellis 工序与工具链]] — 社区实战工序 + 完整工具链推荐
+- [[Serena]] — IDE 级语义代码操作
 - GitNexus：零服务器代码知识图谱引擎，Tree-sitter AST + Graph RAG，40.5k stars
 - OpenSpec：轻量级 Spec 驱动开发框架，四阶段工作流（Propose → Review → Apply → Archive）
 - Superpowers：Agentic Skills 框架，给 AI 注入可组合工程技能

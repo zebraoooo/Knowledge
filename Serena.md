@@ -89,6 +89,12 @@ linux.do 社区帖子：Codex 装了 Serena 之后准确度高了很多。
 
 > GPT 5.4："作为编码 AI，我会让我的主人装 Serena，因为它给了我缺失的 IDE 级别的符号理解能力，把脆弱的文本手术变成了更冷静、更快、更自信的代码修改。"
 
+## 相关
+
+- [[Trellis + GitNexus + Serena 工作流]] — 三件套组合总结
+- [[Trellis]] — 规范驱动开发框架
+- [[Trellis 工序与工具链]] — 社区实战工序 + 完整工具链推荐
+
 ## 来源
 
 - GitHub: https://github.com/oraios/serena
