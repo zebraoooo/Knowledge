@@ -3,8 +3,8 @@ title: <% tp.file.title %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 updated: <% tp.date.now("YYYY-MM-DD") %>
 source:
-status: draft
-type: note
+status: 草稿
+type: 笔记
 tags: []
 aliases: []
 ---
