@@ -2,3 +2,4 @@
 - [Git 配置](git-config.md) — origin/master 推送约定
 - [多设备使用](multi-device.md) — .gitignore per-device vs shared 区分，新机器初始化流程
 - [Templater 踩坑](templater-setup.md) — 配置注意事项和之前的教训
+- [术语规范](vault_terminology.md) — 笔记统一用词标准，写作前先查术语表

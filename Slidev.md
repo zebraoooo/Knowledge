@@ -50,6 +50,7 @@ aliases: []
 - GitHub：https://github.com/slidevjs/slidev
 - 作者：Anthony Fu（@antfu）
 - 之前抓的 Trellis 教程就是用它做的 → [[Trellis]]
+- [[Smithery]] — MCP 生态应用商店
 
 ## 来源
 

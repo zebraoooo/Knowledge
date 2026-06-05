@@ -123,4 +123,5 @@ npm 包——`@modelcontextprotocol/server-sequential-thinking`。也有 Go、Py
 
 - [[Trellis + GitNexus + Serena 工作流]] — 核心工作流
 - [[Trellis 工序与工具链]] — 完整工具链推荐
+- [[Smithery]] — MCP 应用商店
 - [[工作流缺口分析]] — 辅助工具层缺口

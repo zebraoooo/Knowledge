@@ -8,7 +8,7 @@ source:
 status: 草稿
 type: 技术
 tags: [ai, skill, workflow, tdd, code-review, ci]
-aliases: [代码修改工作流, Hermes Agent]
+aliases: [代码修改 SOP, Hermes Agent]
 ---
 
 # Code Change Workflow
@@ -104,6 +104,12 @@ Hermes Agent 出品的一套 AI 代码修改工作流 Skill。本质是一套**�
 - 剩余限制或风险
 
 "Done" means verified, reviewed, and safe to ship.
+
+## 相关
+
+- [[Trellis + GitNexus + Serena 工作流]] — AI 编程核心工作流
+- [[工作流缺口分析]] — 测试和 CI 跟进环节的来源参考
+- [[Sequential Thinking]] — 复杂任务的结构化推理引擎
 
 ## 来源
 

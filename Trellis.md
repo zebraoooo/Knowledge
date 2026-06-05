@@ -17,7 +17,7 @@ AI 驱动的开发协作与编码框架。一句话：**Trellis 是 AI 的脚手
 
 ## 解决了什么问题
 
-AI 编码三个核心痛点：
+AI 编程三个核心痛点：
 
 1. **Vibe Coding**：AI 随机发挥，同一个需求三次生成三种写法，质量看运气
 2. **上下文丢失**：每次新会话 AI 都"失忆"，反复解释项目约定
@@ -105,6 +105,11 @@ Claude Code, Cursor, OpenCode, Codex, Gemini CLI, Windsurf, Kiro, Copilot 等 14
 - [[Trellis + GitNexus + Serena 工作流]] — 三件套组合总结
 - [[Trellis 工序与工具链]] — 社区实战工序 + 完整工具链推荐
 - [[Serena]] — IDE 级语义代码操作
+- [[Sequential Thinking]] — 结构化推理引擎
+- [[Smithery]] — MCP 应用商店
+- [[Code Change Workflow]] — 单次代码修改 SOP
+- [[工作流缺口分析]] — 当前工作流改进方向
+- [[Slidev]] — 演示文稿工具（官方教程用它做的）
 - GitNexus：零服务器代码知识图谱引擎，Tree-sitter AST + Graph RAG，40.5k stars
 - OpenSpec：轻量级 Spec 驱动开发框架，四阶段工作流（Propose → Review → Apply → Archive）
 - Superpowers：Agentic Skills 框架，给 AI 注入可组合工程技能

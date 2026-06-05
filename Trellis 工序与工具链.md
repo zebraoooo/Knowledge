@@ -58,8 +58,8 @@ aliases: []
 | 名称              | 类型  | 说明                                     |
 | --------------- | --- | -------------------------------------- |
 | exa             | MCP | 搜索 + 编程，需付费但有注册机                       |
-| gitnexus        | MCP | 零服务器代码知识图谱引擎，需本地部署和初始化                 |
-| serena          | MCP | 强大的语义检索和编辑工具包，"Codex 强烈推荐"，准确度高了很多     |
+| GitNexus        | MCP | 零服务器代码知识图谱引擎，需本地部署和初始化                 |
+| Serena          | MCP | 强大的语义检索和编辑工具包，"Codex 强烈推荐"，准确度高了很多     |
 | mobile-mcp      | MCP | 安卓模拟器搭配有奇效，但不稳定                        |
 | shadcn          | MCP | React/Vue 前端组件库，组件齐全、规范                |
 | chrome-devtools | MCP | 进阶需求（性能测试、逆向），搭配 playwright，token 消耗大户 |
@@ -77,6 +77,10 @@ aliases: []
 - [[Trellis]] — 规范驱动开发框架
 - [[Trellis + GitNexus + Serena 工作流]] — 三件套组合总结
 - [[Serena]] — IDE 级语义代码操作
+- [[Sequential Thinking]] — 结构化推理引擎
+- [[Smithery]] — MCP 应用商店
+- [[Code Change Workflow]] — 单次代码修改 SOP
+- [[工作流缺口分析]] — 工作流改进方向
 
 ## 来源
 

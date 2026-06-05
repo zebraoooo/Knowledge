@@ -11,7 +11,7 @@ aliases: []
 
 # Serena
 
-The IDE for Your Coding Agent —— 给 AI 编码助手的 IDE。通过 MCP 协议给 Claude Code、Codex、Copilot 等工具提供**符号级别的语义理解和操作能力**。
+The IDE for Your Coding Agent —— 给 AI 编程助手的 IDE。通过 MCP 协议给 Claude Code、Codex、Copilot 等工具提供**符号级别的语义理解和操作能力**。
 
 ## 核心价值
 
@@ -94,6 +94,9 @@ linux.do 社区帖子：Codex 装了 Serena 之后准确度高了很多。
 - [[Trellis + GitNexus + Serena 工作流]] — 三件套组合总结
 - [[Trellis]] — 规范驱动开发框架
 - [[Trellis 工序与工具链]] — 社区实战工序 + 完整工具链推荐
+- [[Sequential Thinking]] — 结构化推理引擎
+- [[Smithery]] — MCP 应用商店
+- [[工作流缺口分析]] — 工作流改进方向
 
 ## 来源
 

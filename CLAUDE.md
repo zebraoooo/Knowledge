@@ -23,6 +23,7 @@ Because Obsidian Sync is enabled, changes under `.obsidian/` propagate to the us
 - **File creation**: prefer Markdown with YAML frontmatter when metadata is useful. Use `[[wikilinks]]` for cross-note references and `#tags` (no spaces) for taxonomy. Avoid Windows-illegal filename characters (`\ / : * ? " < > |`).
 - **Editing existing notes**: keep the user's tone, heading style, and link conventions. Don't reformat aggressively.
 - **Don't auto-create scaffolding**: no PARA folders, no Templates folder, no MOCs unless the user asks. The vault is intentionally bare right now.
+- **Terminology**: consult `术语表.md` before writing. Key rules: use 「AI 编程助手」(not AI 编码), 「GitNexus/Serena/Trellis」(capitalized as brand in prose, lowercase in CLI/tags), 「工作流」as general term, 「工序」for Trellis step-by-step, 「SOP」for Code Change Workflow, 「相关」and 「来源」as standard section headers.
 - **Re-check structure each session**: this file's "current state" snapshot will go stale as the vault grows. Run a quick `ls` / Glob before assuming the layout.
 
 ## What lives where

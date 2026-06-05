@@ -78,7 +78,7 @@ Trellis 官方推荐组合就是 Trellis + GitNexus，认为二者构成"完整 
 
 ## Serena：精准修改
 
-给 AI 编码助手的 IDE，通过 MCP 协议提供符号级语义操作。
+给 AI 编程助手的 IDE，通过 MCP 协议提供符号级语义操作。
 
 两个后端：
 
@@ -268,4 +268,5 @@ uvx --from git+https://github.com/oraios/serena serena project health-check
 - [[Sequential Thinking]] — 结构化推理引擎
 - [[Smithery]] — MCP 应用商店
 - [[Code Change Workflow]] — 单次代码修改 SOP
+- [[术语表]] — 本文档统一用词参考
 - [[工作流缺口分析]] — 当前工作流改进方向
