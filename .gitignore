@@ -1,0 +1,37 @@
+# ─── Obsidian — local UI state (varies per device, causes merge conflicts) ───
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# ─── Obsidian — local caches & recovery (machine-specific, large, regenerable) ───
+.obsidian/cache
+.obsidian/file-recovery/
+.trash/
+
+# ─── Obsidian — plugin runtime data (often per-device: tokens, last-sync, cache) ───
+# Enabled-plugin list (community-plugins.json) and plugin code stay tracked,
+# but each plugin's data.json typically holds device-local state.
+.obsidian/plugins/*/data.json
+
+# ─── Tracked on purpose (do NOT add to ignore — needed across devices) ───
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/core-plugins.json
+# .obsidian/community-plugins.json
+# .obsidian/hotkeys.json
+# .obsidian/plugins/*/main.js
+# .obsidian/plugins/*/manifest.json
+# .obsidian/plugins/*/styles.css
+# .obsidian/snippets/
+
+# ─── Claude Code — local-only settings (per-machine permissions, etc.) ───
+.claude/settings.local.json
+
+# ─── OS junk (multi-platform: Win/macOS/Linux) ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor swap files ───
+*.swp
+*~
