@@ -18,17 +18,6 @@ There is no build system, no test runner, no package manager. Do not invent or r
 
 Because Obsidian Sync is enabled, changes under `.obsidian/` propagate to the user's other devices — confirm before modifying core/community plugin config or workspace layout.
 
-## Persistent memory (CRITICAL — read this before doing anything else)
-
-**Memories live at `.claude/memory/MEMORY.md` (index) and `feedback_*.md` / `project_*.md` / `user_*.md` (entries).** Load the index on every session start. The system may also reference a default memory path under `%USERPROFILE%\.claude\projects\` — prefer the vault copy (`.claude/memory/`) as the source of truth, since it travels with git across devices.
-
-Memory types: `user` (who the user is), `feedback` (how to work with them), `project` (context about this vault), `reference` (pointers to external systems).
-
-- **Read** MEMORY.md first — it's the index
-- **Write** new memories as separate `.md` files with correct frontmatter, then add a one-line entry to MEMORY.md
-- **Update** stale memories when they no longer match reality
-- **Never** write memory content directly into MEMORY.md (it's an index, not a memory)
-
 ## Working conventions
 
 - **File creation**: prefer Markdown with YAML frontmatter when metadata is useful. Use `[[wikilinks]]` for cross-note references and `#tags` (no spaces) for taxonomy. Avoid Windows-illegal filename characters (`\ / : * ? " < > |`).
@@ -39,7 +28,7 @@ Memory types: `user` (who the user is), `feedback` (how to work with them), `pro
 ## What lives where
 
 - `.obsidian/` — Obsidian app config (tracked in git). Workspace layout, enabled plugins, appearance.
-- `.claude/` — Claude Code project-local settings and **persistent memory** (`.claude/memory/`). Memory is synced via git so it survives across devices.
+- `.claude/` — Claude Code project-local settings (settings.local.json, skills, agents). Note: persistent memory is managed by the harness at `%USERPROFILE%\.claude\projects\D--Knowledge\memory\`, not inside the vault.
 - `.git/` — git repo.
 - `Templates/` — Templater note templates.
 
