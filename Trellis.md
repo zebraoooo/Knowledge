@@ -3,8 +3,8 @@ title: Trellis
 created: 2026-06-05
 updated: 2026-06-05
 source: https://trellis-lake.vercel.app/
-status: draft
-type: tech
+status: 草稿
+type: 技术
 tags: [ai, dev-tools, spec-driven, claude-code]
 aliases: []
 ---

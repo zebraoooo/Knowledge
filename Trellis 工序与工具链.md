@@ -3,8 +3,8 @@ title: Trellis 驱动下的工序安排与工具链
 created: 2026-06-05
 updated: 2026-06-05
 source: https://linux.do/t/topic/2100914
-status: draft
-type: tech
+status: 草稿
+type: 技术
 tags: [trellis, ai, dev-workflow, mcp, tools, claude-code, codex]
 aliases: []
 ---
