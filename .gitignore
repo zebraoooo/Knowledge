@@ -12,6 +12,9 @@
 # Enabled-plugin list (community-plugins.json) and plugin code stay tracked,
 # but each plugin's data.json typically holds device-local state.
 .obsidian/plugins/*/data.json
+# Templater config is shared across devices (template folder, folder-template rules) —
+# verified to contain no tokens or absolute paths. Track it so other machines don't have to reconfigure.
+!.obsidian/plugins/templater-obsidian/data.json
 
 # ─── Tracked on purpose (do NOT add to ignore — needed across devices) ───
 # .obsidian/app.json
