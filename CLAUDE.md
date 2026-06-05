@@ -28,7 +28,7 @@ Because Obsidian Sync is enabled, changes under `.obsidian/` propagate to the us
 ## What lives where
 
 - `.obsidian/` — Obsidian app config (tracked in git). Workspace layout, enabled plugins, appearance.
-- `.claude/` — Claude Code project-local settings (settings.local.json, skills, agents). Note: persistent memory is managed by the harness at `%USERPROFILE%\.claude\projects\D--Knowledge\memory\`, not inside the vault.
+- `.claude/` — Claude Code project-local settings (settings.local.json, skills, agents). **Also contains vault-specific memory at `.claude/memory/MEMORY.md`** — load this index early in each session. It holds vault-level project/feedback context distinct from the harness-wide memory at `%USERPROFILE%\.claude\projects\D--Knowledge\memory\`.
 - `.git/` — git repo.
 - `Templates/` — Templater note templates.
 

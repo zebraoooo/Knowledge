@@ -1,4 +1,4 @@
-- [Vault overview](project_vault_overview.md) — D:\Knowledge 是个人 Obsidian 知识库（非代码项目），当前几乎为空
-- [Git remote](project_git_remote.md) — origin = https://github.com/zebraoooo/Knowledge.git，分支 master，用户授权直推
-- [Multi-device sync](project_multi_device_sync.md) — 用户多电脑使用同一 vault，.gitignore 须按 per-device vs shared 区分
-- [Templater config](feedback_templater_config.md) — 改 Obsidian 插件 data.json 后必须重启或重启用插件；trigger_on_file_creation 是 folder template 的总开关
+- [Vault 概述](vault-overview.md) — D:\Knowledge 是个人 Obsidian 知识库，定位和当前状态
+- [Git 配置](git-config.md) — origin/master 推送约定
+- [多设备使用](multi-device.md) — .gitignore per-device vs shared 区分，新机器初始化流程
+- [Templater 踩坑](templater-setup.md) — 配置注意事项和之前的教训
